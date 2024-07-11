@@ -1,0 +1,36 @@
+.playlist {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .track-list {
+    margin-bottom: 20px;
+  }
+  
+  .playlist-controls {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .control-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .control-button:focus {
+    outline: none;
+  }
+  
+  .play-pause {
+    color: #1db954;
+  }
+  
+  .stop {
+    color: #ff0000;
+  }
